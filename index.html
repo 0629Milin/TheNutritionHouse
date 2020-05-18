@@ -82,26 +82,10 @@
             <ul>
               <li><a href="featureInitialConsultancy.html">Initial Consultancy</a></li>
               <li><a href="featureFallHerbalife.html">Fall Herbalife Group</a></li>   
-              <li><a href="featureCampaign.html">Campaign Booking</a></li> 
-              <li class="drop-down"><a href="#">know About Our Products</a>
-                <ul>
-                  <li><a href="#">Weight Management Products</a></li>
-                  <li><a href="#">Child Nutrition Products</a></li>
-                  <li><a href="#">Energy & Athelet Nutrition Products</a></li>
-                  <li class="drop-down"><a href="#">Targeted Nutrition Products</a>
-                    <ul>
-                      <li><a href="#">Heart Health Products</a></li>
-                      <li><a href="#">Digestive Health Products</a></li>
-                      <li><a href="#">Bone & Joint Health Products</a></li>
-                      <li><a href="#">Skin Care Products</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </li>         
+              <li><a href="featureCampaign.html">Campaign Booking</a></li>
             </ul>
           </li>
           <li><a href="#testimonials">Testimonials</a></li>
-          <li><a href="#products">Products</a></li>
           <li><a href="#contact">Contact</a></li>
 
         </ul>
@@ -126,7 +110,9 @@
           <div>
             <h1>Healthy Starts Here</h1>
             <h2>Providing Health & Wellness awareness</h2>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
+              Participate in awareness Survey
+            </button>
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
@@ -138,7 +124,31 @@
   </section><!-- End Hero -->
 
   <main id="main">
-
+    <!-- The Survey Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header text-light text-center" style="background-color: rgb(29, 184, 29);">
+          <h4 class="modal-title">Health & Lifestyle Awareness Survey</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfdCypAqNaQXFDg4sD61AigY_81zLQCyzx7K_aGiUd1W3kLtw/viewform?embedded=true" width="1100" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!--Survey Model complete-->
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -304,7 +314,7 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box icon-box-cyan">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4 class="title"><a href="FeatureDM.html">Personal Coaching</a></h4>
+              <h4 class="title"><a href="#" data-toggle="modal" data-target="#myModal">Personal Coaching</a></h4>
               <p class="description">Small Description about your service to make it mor interesting .</p>
             </div>
           </div>
