@@ -45,13 +45,13 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #009cea;
+  background: #688d32;
   color: #fff;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
-  background: #14b1ff;
+  background: #688d32;
   color: #fff;
 }
 
@@ -63,17 +63,22 @@ h1, h2, h3, h4, h5, h6 {
     transition-delay: 0 !important;
   }
 }
-
+.toprow{
+  height: 7vh;
+  background-color: #688d32;
+  color:rgb(242, 247, 240);
+}
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 72px;
+  height: 15vh;
+  top: 7%;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-  background: #fff;
+  background: rgb(242, 247, 240);
 }
 
 #header.header-scrolled {
@@ -87,18 +92,18 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 1px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
-  color: #576971;
+  color: #0a0a0a;
   text-decoration: none;
 }
 
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 60px;
 }
 
 @media (max-width: 768px) {
@@ -112,15 +117,16 @@ h1, h2, h3, h4, h5, h6 {
 # Header Social Links
 --------------------------------------------------------------*/
 .header-social-links a {
-  color: #7b909a;
+  color: #161616;
   padding: 12px 0 12px 6px;
   display: inline-block;
+  margin-top: 13px;
   line-height: 1px;
   transition: 0.3s;
 }
 
 .header-social-links a:hover {
-  color: #009cea;
+  color: #295e06;
 }
 
 @media (max-width: 768px) {
@@ -148,15 +154,16 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #7b909a;
+  color: #19191a;
   padding: 10px 15px;
   transition: 0.3s;
+  margin-top: 13px;
   font-size: 15px;
   font-family: "Poppins", sans-serif;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #009cea;
+  color: #295e06;
   text-decoration: none;
 }
 
@@ -169,7 +176,7 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0;
   visibility: hidden;
   padding: 10px 0;
-  background: #fff;
+  background: rgb(242, 247, 240);
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
 }
@@ -193,7 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #009cea;
+  color: #688d32;
 }
 
 .nav-menu .drop-down > a:after {
@@ -240,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 21px;
+  top: 34px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -253,7 +260,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #009cea;
+  color: #688d32;
 }
 
 .mobile-nav {
@@ -264,7 +271,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 15px;
   z-index: 9999;
   overflow-y: auto;
-  background: #fff;
+  background: rgb(242, 247, 240);
   transition: ease-in-out 0.2s;
   opacity: 0;
   visibility: hidden;
@@ -281,14 +288,14 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #364146;
+  color: #0a0a0a;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #009cea;
+  color: #688d32;
   text-decoration: none;
 }
 
@@ -421,7 +428,11 @@ section {
 }
 
 .section-bg {
-  background-color: #f7f8f9;
+  background-color: rgb(223, 230, 203);
+}
+
+.section-program-bg {
+  background-color: #e2f3d5;
 }
 
 .section-title {
@@ -1492,14 +1503,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
+  background: #212221;
   padding: 0 0 30px 0;
-  color: #364146;
+  color: #e7f8e7;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #fff;
+  background: #688d32;
   padding: 60px 0 30px 0;
   border-top: 2px solid #e9ecee;
   border-bottom: 2px solid #e9ecee;
@@ -1522,14 +1533,14 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #576971;
+  color: #e7f8e7;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: #e9ecee;
-  color: #8a9ca5;
+  color: #688d32;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -1541,15 +1552,15 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #009cea;
-  color: #fff;
+  background: #212221;
+  color: #e9ecee;
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #364146;
+  color: #0a0a0a;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1566,7 +1577,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #009cea;
+  color: #0a0a0a;
   font-size: 18px;
   line-height: 1;
   margin-left: -5px;
@@ -1583,23 +1594,23 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #576971;
+  color: #e9ecee;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #009cea;
+  color: #688d32;
 }
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
-  background: #fff;
+  background: #e9ecee;
   padding: 6px 10px;
   position: relative;
   border-radius: 4px;
-  border: 1px solid #e3e7e9;
+  border: 1px solid #e9ecee;
 }
 
 #footer .footer-top .footer-newsletter form input[type="email"] {
@@ -1617,14 +1628,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #009cea;
-  color: #fff;
+  background: #688d32;
+  color: #e9ecee;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
 }
 
 #footer .footer-top .footer-newsletter form input[type="submit"]:hover {
-  background: #007ab7;
+  background: #688d32;
 }
 
 #footer .copyright {
@@ -1636,7 +1647,7 @@ section {
   padding-top: 8px;
   text-align: center;
   font-size: 13px;
-  color: #364146;
+  color: #fff;
 }
 
 /* health survey */
