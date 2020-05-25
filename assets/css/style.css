@@ -67,13 +67,12 @@ h1, h2, h3, h4, h5, h6 {
   height: 7vh;
   background-color: #688d32;
   color:rgb(242, 247, 240);
+  text-align: center;
 }
 
 @media (max-width: 768px) {
   .toprow  {
-    height: 9vh;
     font-size: 12px;
-    text-align: center;
   }
 }
 
@@ -121,9 +120,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header .logo h1 {
-    font-size: 17px;
+    font-size: 16px;
     padding-left: 1px;
-    font-weight: 600;
+    font-weight: 900;
   }
 }
 
