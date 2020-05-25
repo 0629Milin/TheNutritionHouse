@@ -68,11 +68,16 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #688d32;
   color:rgb(242, 247, 240);
   text-align: center;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-family: "Raleway", sans-serif;
 }
 
 @media (max-width: 768px) {
   .toprow  {
-    font-size: 12px;
+    font-size: 14px;
+    height: 7vh;
   }
 }
 
