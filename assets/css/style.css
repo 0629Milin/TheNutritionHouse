@@ -71,7 +71,9 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .toprow  {
-    font-size: 9px;
+    height: 9vh;
+    font-size: 12px;
+    text-align: center;
   }
 }
 
@@ -119,7 +121,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   #header .logo h1 {
-    font-size: 28px;
+    font-size: 20px;
     padding: 8px 0;
   }
 }
