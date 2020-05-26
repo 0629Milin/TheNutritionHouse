@@ -85,6 +85,15 @@ h1, h2, h3, h4, h5, h6 {
   background-color:#f5f7f5;
   height: 30vh;
 }
+
+@media (max-width: 768px) {
+  .maintitle  {
+    font-size: 12px;
+    height: 55vh;
+    margin: auto;
+  }
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -486,10 +495,19 @@ section {
   padding: 60px 50px;
 }
 
+.ownerimg img{
+  height: 80vh;
+  width: 40vw;
+}
 @media (max-width: 992px) {
   .about .container {
     padding: 30px;
   }
+
+  .ownerimg img{
+    height: 50vh;
+    width: 100vw;
+  }  
 }
 
 .about .content h3 {
@@ -505,7 +523,10 @@ section {
 }
 
 .about .content ul li {
-  padding-bottom: 10px;
+  padding-bottom: 8px;
+  font-size: 15px;
+  font-weight: 400;
+  color: #161616;
 }
 
 .about .content ul i {
@@ -804,6 +825,9 @@ section {
   bottom: calc(50% - 50px);
 }
 
+.userimg img{
+  height: 50vh;
+}
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
