@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .toprow{
   height: 7vh;
-  background-color: #688d32;
+  background-color: green;
   color:rgb(242, 247, 240);
   text-align: center;
   line-height: 1;
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 15px 0;
-  background: rgb(226, 248, 215);
+  background: rgb(243, 247, 242);
 }
 
 #header.header-scrolled {
@@ -827,6 +827,7 @@ section {
 
 .userimg img{
   height: 50vh;
+  width: 35vw;
 }
 /*--------------------------------------------------------------
 # Cta
