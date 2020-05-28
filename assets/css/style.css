@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   border-radius: 4px;
-  background: #688d32;
+  background: green;
   color: #fff;
   transition: all 0.4s;
 }
@@ -905,6 +905,10 @@ section {
   color: #111;
 }
 
+.testimonials .testimonial-item hr {
+  border: 10px solid green;
+  border-radius: 5px;
+}
 .testimonials .testimonial-item h4 {
   font-size: 14px;
   color: #999;
