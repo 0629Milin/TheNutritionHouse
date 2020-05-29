@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" /> 
 
   <title>The Nutrition House</title>
   <meta content="" name="descriptison">
@@ -106,8 +107,8 @@
       <div class="row">
         <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
           <div>
-            <h1>Healthy <span style="color: green;">Starts</span> Here</h1>
-            <h2>Providing Health & Wellness awareness</h2>
+            <h1>Let's Get<span style="color: green;"> Ready</span></h1>
+            <h2>To achieve your wellness goal with us</h2>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
               Participate in awareness Survey
             </button>
@@ -348,22 +349,6 @@
       </div>
     </section><!-- End Services Section -->
 
-     <!-- ======= Appointment Section ======= -->
-    <section id="cta" class="cta">
-      <div class="container">
-
-        <div class="row" data-aos="zoom-in">
-          <div class="col-lg-9 text-center text-lg-left">
-            <h3 class="text-dark">Book Your <span style="color: green;">Appointment</span></h3>
-            <p> Let's get stared to get healthier life ever .</p>
-          </div>
-          <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Book Now<span class="icon"><i class="icofont-hand-drawn-alt-right"></i></span></a>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Appointment Section -->
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-program-bg" >
       <div class="container">
@@ -805,7 +790,7 @@
             <div class="info">
               <div class="address">
                 <i class="icofont-google-map"></i>
-                <h4>Location:</h4>
+                <h4>Location :</h4>
                 <p> 1862 The Nutrition House, <br>
                   Goti Ni Sheri Rd, near <br>
                   vanita vishram high school, <br>
@@ -814,13 +799,13 @@
 
               <div class="email">
                 <i class="icofont-envelope"></i>
-                <h4>Email:</h4>
+                <h4>Email :</h4>
                 <p>thenutritionhouse24@gmail.com</p>
               </div>
 
               <div class="phone">
                 <i class="icofont-phone"></i>
-                <h4>Call:</h4>
+                <h4>Call Now :</h4>
                 <p>
                   <strong>Nishit Khatri:</strong> +91 76001 37503<br>
                   <strong>Aayushi Khatri:</strong> +91 97242 39846                
@@ -941,7 +926,7 @@
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Book Your Appointment</h4>
             <p>Let's have small get to gather to get a report about your health & its absolutly free </p>
-            <a class="btn btn-block btn-dark" href="#">Book Now<span class="icon"><i class="ml-1 bx bx-chevron-right-circle"></i></span></a>
+            <a class="btn btn-block btn-dark" href="#" data-aos="zoom-in" data-toggle="modal" data-target="#mdlIC">Book Now<span class="icon"><i class="ml-1 bx bx-chevron-right-circle"></i></span></a>
           </div>
 
         </div>
@@ -957,13 +942,29 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/scaffold-bootstrap-metro-style-template/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <strong>milinkhalas@gmail.com</strong> with the help of <a href="https://bootstrapmade.com/" target="_blank">BootstrapMade</a>
       </div>
     </div>
   </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="bx bxs-up-arrow-alt"></i></a>
 
+  <div id="loader" class="spinner-grow text-success loader-center"></div> 
+    <script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                  "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                  "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                  "#loader").style.display = "none"; 
+                document.querySelector( 
+                  "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script>
   <!-- Vendor JS Files -->
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #009cea;
+  color: #295e06;
 }
 
 a:hover {
-  color: #1eb4ff;
+  color: #295e06;
   text-decoration: none;
 }
 
@@ -26,6 +26,26 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+#loader { 
+  width: 70px; 
+height: 70px; 
+ 
+} 
+
+@keyframes spin { 
+  100% { 
+      transform: rotate(360deg); 
+  } 
+} 
+
+.loader-center { 
+  position: absolute; 
+  top: 0; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  margin: auto; 
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -416,11 +436,11 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   transition: 0.5s;
   color: #fff;
-  background: #009cea;
+  background: #295e06;
 }
 
 #hero .btn-get-started:hover {
-  background: #008bd1;
+  background: #295e06;
 }
 
 #hero .hero-img {
@@ -830,56 +850,6 @@ section {
   width: 20vw;
 
 }
-/*--------------------------------------------------------------
-# Cta
---------------------------------------------------------------*/
-.cta {
-  background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url("../img/backgroundAppointment.jpeg") center center;
-  background-size: cover;
-  padding: 80px 0;
-}
-
-.cta h3 {
-  color: #364146;
-  font-size: 28px;
-  font-weight: 700;
-}
-
-.cta p {
-  color: #576971;
-}
-
-.cta .cta-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 30px;
-  border-radius: 4px;
-  transition: 0.5s;
-  margin: 10px;
-  color: #fff;
-  background: #009cea;
-}
-
-.cta .cta-btn:hover {
-  background: #008bd1;
-}
-
-@media (min-width: 1024px) {
-  .cta {
-    background-attachment: fixed;
-  }
-}
-
-@media (min-width: 769px) {
-  .cta .cta-btn-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  }
-}
 
 /*--------------------------------------------------------------
 # Testimonials
@@ -959,7 +929,7 @@ section {
 }
 
 .testimonials .owl-dot.active {
-  background-color: #009cea !important;
+  background-color: green !important;
 }
 
 @media (max-width: 767px) {
@@ -1058,7 +1028,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #009cea;
+  color: #295e06;
 }
 
 .team .member .social i {
@@ -1109,114 +1079,6 @@ section {
   transition: all 0.4s ease-in-out;
 }
 
-/*--------------------------------------------------------------
-# Pricing
---------------------------------------------------------------*/
-.pricing .box {
-  padding: 20px;
-  background: #fff;
-  text-align: center;
-  border-radius: 4px;
-  position: relative;
-  overflow: hidden;
-  border: 2px solid #e9ecee;
-}
-
-.pricing h3 {
-  font-weight: 400;
-  padding: 20px 15px;
-  font-size: 18px;
-  font-weight: 400;
-  color: #777777;
-}
-
-.pricing h4 {
-  font-size: 36px;
-  color: #009cea;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
-}
-
-.pricing h4 sup {
-  font-size: 20px;
-  top: -15px;
-  left: -3px;
-}
-
-.pricing h4 span {
-  color: #bababa;
-  font-size: 16px;
-  font-weight: 300;
-}
-
-.pricing ul {
-  padding: 0;
-  list-style: none;
-  color: #444444;
-  text-align: center;
-  line-height: 20px;
-  font-size: 14px;
-}
-
-.pricing ul li {
-  padding-bottom: 16px;
-}
-
-.pricing ul i {
-  color: #295e06;
-  font-size: 18px;
-  padding-right: 4px;
-}
-
-.pricing ul .na {
-  color: #ccc;
-  text-decoration: line-through;
-}
-
-.pricing .btn-wrap {
-  padding: 20px 15px;
-  text-align: center;
-}
-
-.pricing .btn-buy {
-  background: #295e06;
-  display: inline-block;
-  padding: 8px 30px;
-  border-radius: 4px;
-  color: #fff;
-  font-size: 13px;
-  font-family: "Raleway", sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-
-.pricing .featured {
-  background: #295e06;
-  border-color: #295e06;
-}
-
-.pricing .featured h3, .pricing .featured h4, .pricing .featured h4 span, .pricing .featured ul, .pricing .featured ul .na {
-  color: #fff;
-}
-
-.pricing .featured .btn-buy {
-  background: #fff;
-  color: #295e06;
-}
-
-.pricing .advanced {
-  width: 200px;
-  position: absolute;
-  top: 18px;
-  right: -68px;
-  transform: rotate(45deg);
-  z-index: 1;
-  font-size: 14px;
-  padding: 1px 0 3px 0;
-  background: #009cea;
-  color: #fff;
-}
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions
@@ -1237,7 +1099,7 @@ section {
 .faq .faq-list a {
   display: block;
   position: relative;
-  font-family: #009cea;
+  font-family: #295e06;
   font-size: 18px;
   font-weight: 500;
 }
@@ -1255,7 +1117,7 @@ section {
 }
 
 .faq .faq-list a.collapse {
-  color: #009cea;
+  color: #295e06;
 }
 
 .faq .faq-list a.collapsed {
@@ -1263,7 +1125,7 @@ section {
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #009cea;
+  color: #295e06;
 }
 
 .faq .faq-list a.collapsed i::before {
@@ -1283,7 +1145,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #009cea;
+  color: green;
   float: left;
   width: 44px;
   height: 44px;
@@ -1330,99 +1192,15 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #009cea;
+  background: green;
   color: #fff;
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #009cea;
+  background: green;
   color: #fff;
 }
 
-.contact .php-email-form {
-  width: 100%;
-  padding: 30px;
-  background: #fff;
-  border: 2px solid #e9ecee;
-  border-radius: 4px;
-}
-
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
-
-.contact .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.contact .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.contact .php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.contact .php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  -webkit-animation: animate-loading 1s linear infinite;
-  animation: animate-loading 1s linear infinite;
-}
-
-.contact .php-email-form input, .contact .php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.contact .php-email-form input {
-  height: 44px;
-}
-
-.contact .php-email-form textarea {
-  padding: 10px 12px;
-}
-
-.contact .php-email-form button[type="submit"] {
-  background: #009cea;
-  border: 0;
-  padding: 10px 24px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 4px;
-}
-
-.contact .php-email-form button[type="submit"]:hover {
-  background: #1eb4ff;
-}
 
 @-webkit-keyframes animate-loading {
   0% {
@@ -1504,7 +1282,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-carousel .owl-dot.active {
-  background-color: #009cea !important;
+  background-color: #295e06 !important;
 }
 
 .portfolio-details .portfolio-info {
