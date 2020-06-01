@@ -970,8 +970,12 @@ section {
   position: relative;
 }
 
-.team .member .pic {
+.team .member .pic i{
   overflow: hidden;
+  font-size:150px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: green;
 }
 
 .team .member .member-info {
