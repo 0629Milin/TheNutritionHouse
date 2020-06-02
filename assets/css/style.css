@@ -519,14 +519,13 @@ section {
   height: 90vh;
   width: 40vw;
 }
-@media (max-width: 992px) {
+@media (max-width: 782px) {
   .about .container {
     padding: 30px;
   }
 
   .ownerimg img{
-    height: 50vh;
-    width: 100vw;
+    height: 100vh;
   }  
 }
 
@@ -955,7 +954,7 @@ section {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.75);
+  background: rgba(255, 255, 255, 0.50);
   z-index: 9;
 }
 
@@ -972,8 +971,8 @@ section {
 
 .team .member .pic img{
   overflow: hidden;
-  width: 30vw;
-  height: 35vh;
+  width: 25vw;
+  height: 30vh;
   line-height: 1;
   margin-bottom: 15px;
   color: green;
@@ -1045,6 +1044,12 @@ section {
   .team .member {
     margin-bottom: 110px;
   }
+
+  .team .member .pic img{
+    width: 35vw;
+    height: 15vh;   
+  }
+  
 }
 
 /*--------------------------------------------------------------
