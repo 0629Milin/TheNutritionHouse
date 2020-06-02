@@ -942,7 +942,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: url("../img/team-bg.jpg") center center no-repeat;
+  background: url("../img/team-bg.jpeg") center center no-repeat;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -970,9 +970,10 @@ section {
   position: relative;
 }
 
-.team .member .pic i{
+.team .member .pic img{
   overflow: hidden;
-  font-size:150px;
+  width: 30vw;
+  height: 35vh;
   line-height: 1;
   margin-bottom: 15px;
   color: green;
