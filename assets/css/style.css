@@ -168,13 +168,13 @@ width: 31vw;
 
 @media (max-width: 768px) {
   #header .logo h1 {
-    font-size: 20px;
+    font-size: 22px;
     padding-left: 1px;
-    font-weight: 900;
+    font-weight: 3000;
   }
 
   #header .logo marquee {
-    width: 70vw;
+    width: 100vw;
     }
     
 }
