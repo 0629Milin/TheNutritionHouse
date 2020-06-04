@@ -522,7 +522,13 @@ section {
 @media (max-width: 782px) {
   .about .container {
     padding: 30px;
-  }  
+  }
+
+  .ownerimg img{
+    height: 50vh;
+    width: 90vw;
+  }
+  
 }
 
 .about .content h3 {
