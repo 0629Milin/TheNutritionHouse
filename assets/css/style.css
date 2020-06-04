@@ -118,7 +118,7 @@ height: 70px;
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 20vh;
+  height: 20%;
   top: 7%;
   transition: all 0.5s;
   z-index: 997;
@@ -142,7 +142,7 @@ height: 70px;
 }
 
 #header .logo p {
-  top: 40%;
+  top: 10%;
   font-size: 15px;
   margin-top: 0px;
   font-weight: 200;
@@ -174,7 +174,7 @@ width: 31vw;
   }
 
   #header .logo marquee {
-    width: 100vw;
+    width: 90vw;
     }
     
 }
@@ -468,7 +468,7 @@ width: 31vw;
 
 #hero .hero-img img {
   width: 70%;
-  margin-top: 5%;
+  margin-top: 22%;
 }
 
 @media (min-width: 1024px) {
