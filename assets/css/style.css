@@ -118,7 +118,7 @@ height: 70px;
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 15vh;
+  height: 20vh;
   top: 7%;
   transition: all 0.5s;
   z-index: 997;
@@ -132,13 +132,27 @@ height: 70px;
 }
 
 #header .logo h1 {
-  font-size: 28px;
+  font-size: 35px;
   margin: 0;
-  padding: 6px 0;
+  padding: 6px 0 0 0;
   line-height: 1;
-  font-weight: 600;
+  font-weight: 750;
   letter-spacing: 1px;
   font-family: "Raleway", sans-serif;
+}
+
+#header .logo p {
+  top: 40%;
+  font-size: 15px;
+  margin-top: 0px;
+  font-weight: 200;
+  color: green;
+  letter-spacing: 1px;
+  font-family: "Raleway", sans-serif;
+}
+
+#header .logo marquee {
+width: 31vw;
 }
 
 #header .logo h1 a, #header .logo h1 a:hover {
@@ -158,6 +172,11 @@ height: 70px;
     padding-left: 1px;
     font-weight: 900;
   }
+
+  #header .logo marquee {
+    width: 70vw;
+    }
+    
 }
 
 /*--------------------------------------------------------------
