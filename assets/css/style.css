@@ -525,7 +525,7 @@ section {
   }
 
   .ownerimg img{
-    height: 50vh;
+    height: auto;
     width: 90vw;
   }
   
