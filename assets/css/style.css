@@ -27,8 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #loader { 
-  width: 70px; 
-height: 70px; 
+width: 35px; 
+height: 35px; 
  
 } 
 
@@ -40,11 +40,10 @@ height: 70px;
 
 .loader-center { 
   position: absolute; 
-  top: 0; 
-  bottom: 0; 
-  left: 0; 
-  right: 0; 
-  margin: auto; 
+  top: 40px;  
+  left: 29px; 
+  margin: auto;
+   
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -313,11 +312,11 @@ width: 31vw;
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 12.5%;
+  top: 71px;
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 27px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
@@ -331,7 +330,7 @@ width: 31vw;
 
 .mobile-nav {
   position: fixed;
-  top: 55px;
+  top: 20vh;
   right: 15px;
   bottom: 15px;
   left: 15px;
@@ -413,7 +412,7 @@ width: 31vw;
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #fff;
+  color: rgb(242, 247, 240);
 }
 
 /*--------------------------------------------------------------
