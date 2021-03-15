@@ -14,9 +14,6 @@
   <link href="assets/img/logo.png" rel="icon">
   <link href="assets/img/logo.png" rel="apple-touch-icon">
 
-    <!-- Google Ads -->
-  <script data-ad-client="ca-pub-6685741179986584" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -43,6 +40,7 @@
   (function(){var w=window;var ic=w.callbell;if(typeof ic==="function"){ic('reattach_activator');ic('update',callbellSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Callbell=i;var l=function(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://dash.callbell.eu/include/'+window.callbellSettings.token+'.js';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);};if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()
 </script>
 <!-- End of Async Callbell Code -->
+
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -93,7 +91,8 @@
             <ul>
               <li><a href="featureInitialConsultancy.html">Initial Consultancy</a></li>
               <li><a href="featureCampaign.html">Campaign Booking</a></li>
-              <li><a href="#programs">Our Fitness Programs</a></li>   
+              <li><a href="#programs">Our Fitness Programs</a></li>
+              <li><a href="#programs">21 Day's Fitness Challenge</a></li>   
             </ul>
           </li>
           <li><a href="#portfolio-details">Testimonials</a></li>
@@ -124,6 +123,11 @@
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">
               Participate in awareness Survey
             </button>
+            <p></p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bmiModal">
+              Calculate your BMI (Body Mass Index)
+            </button>
+           
           </div>
         </div>
         <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left">
@@ -141,7 +145,7 @@
       <div class="modal-content">
       
         <!-- Modal Header -->
-        <div class="modal-header text-light text-center" style="background-color: rgb(29, 184, 29);">
+        <div class="modal-header text-light text-center" style="background-color: rgb(47, 184, 29);">
           <h4 class="modal-title">Health & Lifestyle Awareness Survey</h4>
           <button type="button" class="close" data-dismiss="modal">&times;</button>
         </div>
@@ -159,8 +163,75 @@
       </div>
     </div>
   </div>
-  <!--Survey Model complete-->
+  <!--21 day's service Model complete-->
+  <div class="modal fade" id="myServiceIvModel">
+    <div class="modal-dialog modal-xl">
+      <div class="modal-content">
+      
+        <!-- Modal Header -->
+        <div class="modal-header text-light text-center" style="background-color: rgb(184, 29, 101);">
+          <h4 class="modal-title">21 Day's Body Transformation Challenge</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        
+        <!-- Modal body -->
+        <div class="modal-body">
+          <iframe class="survey" src="https://docs.google.com/forms/d/e/1FAIpQLScYXZRuznRfwDxMrh1XVoyc-HrVjMZNf6vBiZqeSMSf7EnYZw/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!--21 day's service Model complete-->
 
+    <!-- The BMI Calculator Modal -->
+    <div class="modal fade" id="bmiModal">
+      <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header text-light text-center" style="background-color: lightblue">
+            <h4 class="modal-title text-dark">Know Your BMI Now</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+            
+          <form class="modal-content animate" method="post">
+    
+          <div class="row m-5">
+            <div class="container col-lg-6 col-md-6 col-12">
+              <label for="height"><b>Enter Your Height</b></label>
+              <input type="text" id="height" placeholder="Enter Height" name="height" required>
+  
+            <label for="weight"><b>Enter Your Weight</b></label>
+            <input type="text" id="weight" placeholder="Enter Weight" name="weight" required>
+      
+            <label for="bmi"><b id="bmi_index" class="ans"></b></label>       
+            <button type="submit" class="btn btn-block btn-primary" value="Calculate" onclick="calculateBMI()">Calculate BMI</button>
+            <script type="text/javascript" src="assets/js/main.js"></script>
+          </div>
+      <div class="imgcontainer col-lg-6 col-md-6 col-12">
+       
+     </div>
+    </div>
+  </form>
+          </div>
+  <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <!--BMI Model complete-->
   
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
@@ -342,7 +413,7 @@
 
         <div class="row">
 
-          <div class="col-md-4 col-lg-4 col-12 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
+          <div class="col-md-3 col-lg-3 col-12 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box icon-box-green col-12">
               <div class="icon"><i class="icofont-meetme"></i></div>
               <h4 class="title"><a href="featureInitialConsultancy.html">Initial Consultancy</a></h4>
@@ -351,7 +422,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-lg-4 col-12 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
+          <div class="col-md-3 col-lg-3 col-12 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in">
             <div class="icon-box icon-box-pink col-12">
               <div class="icon"><i class="icofont-megaphone-alt"></i></div>
               <h4 class="title"><a href="featureCampaign.html">Health Awareness Camp</a></h4>
@@ -360,7 +431,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 col-lg-4 col-12 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-md-3 col-lg-3 col-12 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="100">
             <div class="icon-box icon-box-cyan col-12">
               <div class="icon"><i class="icofont-files-stack"></i></div>
               <h4 class="title"><a href="#" data-toggle="modal" data-target="#myModal">Health Survey</a></h4>
@@ -369,14 +440,13 @@
             </div>
           </div>
 
-          <!-- <div class="col-md-4 col-lg-4 col-12 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
+          <div class="col-md-3 col-lg-3 col-12 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="zoom-in" data-aos-delay="300">
             <div class="icon-box icon-box-blue col-12">
               <div class="icon"><i class="icofont-presentation"></i></div>
-              <h4 class="title"><a href="featureOurPrograms.html">Our Fitness Programs</a></h4>
-              <p style="color: white;">Health Awareness Camp</p>
-              <a data-aos="zoom-in" href="featureOurPrograms.html" target="_blank">Join Now  <i class="icofont-hand-drawn-alt-right"></i></a>
+              <h4 class="title"><a href="#" data-toggle="modal" data-target="#myServiceIvModel">21 Day's Body Transformation Challenge</a></h4>
+              <a data-aos="zoom-in" href="#" data-toggle="modal" data-target="#myServiceIvModel">Join Now  <i class="icofont-hand-drawn-alt-right"></i></a>
             </div>
-          </div> -->
+          </div>
 
         </div>
 
@@ -1053,16 +1123,6 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-  
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V82C5TJMB4"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-V82C5TJMB4');
-</script>
 
 </body>
 
